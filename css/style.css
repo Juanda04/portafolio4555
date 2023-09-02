@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.theme-color{
+  position: fixed;
+  right: 0;
+  top: 200px;
+  z-index: 99;
+  background: transparent;
+}
+
+.open-panel{
+  background: #12ecdad3;
+  color: #fff;
+  padding: 10px 25px;
+  transform: rotate(-90deg);
+  position: relative;
+  right: -34px;
+  transition: 1.1s;
+}
+
+.open-panel.active{
+  right: 73px;
+}
+
+.cont-colores{
+  width: 100px;
+  padding: 30px 0;
+  background: #fff;
+   position: absolute;
+  right: -120px;
+  transition: 1s;
+  top: -24px;
+}
+
+.cont-colores.active{
+  right: 0;
+}
+
+.cont-colores button{
+  width: 30px;
+  height: 30px;
+  display: block;
+  color: transparent;
+  border-radius: 40px;
+  margin: 10px auto;
+
+}
+
+.cont-colores button:nth-child(1){
+  background: #5cd2b9d1;
+}
+.cont-colores button:nth-child(2){
+  background: #dccd30;
+}
+.cont-colores button:nth-child(3){
+  background: #ff0000;
+}
+
+.bg-adso{
+    background: #2C3333;
+    font-size: 20px;
+    font-family: source serif pro;
+}
+.navbar-brand{
+    color: #ffffff;
+}
+.navbar-brand:hover{
+    color:#0E8388;
+}
+.nav-link{
+    color: #ffffff;
+}
+.nav-link:hover{
+    color: #5CD2B9;
+}
+
+.navbar-brand span{
+    font-size: 40px;
+    font-family: source serif pro;
+}
+
+header #hero{
+    width: 100%;
+    height: 95vh;
+    background: url("../img/cerrar-hombre-escribiendo-codigo-computadora-portatil.jpg");
+    background-size: cover;
+}
+
+.fondo{
+    width: 100%;
+    position: absolute;
+    top:auto
+
+}
+.info{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: source serif pro;
+    padding-top: 250px;
+}
+.programas{
+    background: rgba(35, 35, 35, 0.83);
+    width: 650px;
+    padding: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: source serif pro;
+}
+
+#hero .info h1{
+    font-size: 100px;
+}
+
+
+/*--------------------------------------------------------------------------- */
+
+main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#about {
+  width: 100%;
+  height: 100%;
+    padding: 100px 0;
+    border: 10px solid #000;
+    background: linear-gradient(270deg, #CBE4DE 37.93%, rgba(14, 131, 136, 0.90) 99.77%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  #about .img-hover:hover {
+    transform: scale(1.2);
+  }
+
+  #about .cont-info {
+    margin-left: 60px; 
+  }
+  
+  #about h1 {
+    color: #0E8388;
+    font-family: Source Serif Pro;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+
+  #about h2 {
+    color: #000;
+    font-family: Source Serif Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+
+ 
+
+
+  #about p {
+    color: #000;
+    font-family: Source Serif Pro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+  
+  .signature-image p {
+    width: 400px; 
+    margin-top: 5px; 
+  }
+    .container {
+      display: flex;
+      justify-content: space-between;
+    transform: translateX(-15px);
+
+    }
+    
+    .left-paragraphs {
+      text-align: left;
+    }
+    .left-paragraphs span{
+      color: #0E8388;
+    }
+    
+    .right-paragraphs {
+      text-align: right;
+    }
+
+    .right-paragraphs span{
+      color: #0E8388;
+    }
+    
+
+/*--------------------------------------------------------------------------- */
+
+
+
+#servicios{
+  border: 10px solid #000;
+  background: linear-gradient(270deg, #CBE4DE 37.93%, rgba(14, 131, 136, 0.90) 99.77%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  position: relative;
+  padding: 120px 0px;
+  }
+
+ 
+
+    #servicios .titulo-cont{
+      color: #ffffff;
+  text-align: center;
+  font-family: Cinzel;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: left;
+    }
+  
+    #servicios .parrafo-destacado{
+      color: #000000b9;
+  text-align: center;
+  font-family: Cinzel;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+    }
+  
+  .small-hr {
+      width: 300px;
+      border-top: 5px solid #5cd2b9;
+      margin: 10px auto;
+    }
+  
+    main .descripciones{
+      margin-top: 5%;
+  }
+  main .titulo-cont{
+      color: #ffffff;
+  }
+  
+  main .designer{
+      text-align: center;
+      transform: translateX(50px);
+      width: 300px;
+      height: 600px;
+      border-radius: 20px;
+      padding: 15px;
+      border: 3PX SOLID #12ecda ;
+      transition: 1s;
+  }
+  
+  
+  
+  main .frontend{
+      text-align: center;
+      width: 300px;
+      height: 600px;
+      border-radius: 20px;
+      padding: 10px;
+      border: 3PX SOLID #12ecda ;
+      transition: 1s;
+      transform: translateX(100px);
+  }
+  
+  main .backend{
+      text-align: center;
+      width: 350px;
+      height: 600px;
+      border-radius: 20px;
+      padding: 15px;
+      border: 3PX SOLID #12ecda ;
+      transition: 1s;
+      transform: translateX(100px);
+  }
+
+  cont-portf img {
+    max-width: 100%; /* Ajustar imágenes al ancho de la tarjeta */
+    height: auto; /* Evitar distorsión de la imagen */
+    margin-bottom: 40px; /* Espacio entre la imagen y el título */
+  }
+  
+  .cont-portf:hover{
+  
+    background: linear-gradient(180deg, rgba(14, 131, 136, 0.90) 0%, rgba(14, 131, 136, 0.00) 100%);
+  }
+  
+  
+  .style-backend :hover h2{
+  color: rgba(0, 0, 0, 1);
+  }
+  .style-backend :hover p{
+      color: rgba(0, 0, 0, 1);
+  }
+
+  
+/*-----------------------------------------------------------------------------*/
+#ultimap{
+  border: 10px solid #000;
+  background: linear-gradient(270deg, #CBE4DE 37.93%, rgba(14, 131, 136, 0.90) 99.77%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    position: relative;
+    padding: 120px 0px;
+    }
+    
+    
+
+    #ultimap h1{
+        color: rgba(0, 0, 0, 0.82);
+    font-family: Cinzel;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    }
+    
+    #ultimap h2{
+        color: #FFF;
+    font-family: Cinzel;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    #ultimap h2 span{
+        color: rgba(92, 210, 185, 0.82);
+    }
+
+    .cuadro-xto {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 10px;
+      transform: translateY(60px);
+    }
+      
+      #ultimap .parrafo-next {
+        color: #736868;
+        font-family: Cinzel;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      .sll-hr {
+        width: 300px;
+        border-top: 5px solid #5cd2b9;
+        margin: 10px auto;
+      }
+    
+
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+   
+  .outer-footer {
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+  }
+
+
+
+
